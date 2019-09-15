@@ -23,9 +23,9 @@ In this example we have one master changeloge file (changelog-master.xml)
 </databaseChangeLog>
 ```
 And we have different sub change log files -
-  create-application-information-table-changelog.xml
-  insert-application-information-table-changelog.xml
-  update-application-information-table-changelog.xml
+  *create-application-information-table-changelog.xml
+  *insert-application-information-table-changelog.xml
+  *update-application-information-table-changelog.xml
   
 All above sub change log files are imported in master file - 
 ```
@@ -37,3 +37,4 @@ Above sub change file will create table in database, insert data in table and up
 You can specify order of the excution of each changes in change log file.
 
 Read More - https://www.liquibase.org/
+*
