@@ -23,9 +23,9 @@ In this example we have one master changeloge file (changelog-master.xml)
 </databaseChangeLog>
 ```
 And we have different sub change log files -
-  *create-application-information-table-changelog.xml
-  *insert-application-information-table-changelog.xml
-  *update-application-information-table-changelog.xml
+  * create-application-information-table-changelog.xml
+  * insert-application-information-table-changelog.xml
+  * update-application-information-table-changelog.xml
   
 All above sub change log files are imported in master file - 
 ```
